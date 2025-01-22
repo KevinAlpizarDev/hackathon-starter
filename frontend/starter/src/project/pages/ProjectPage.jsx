@@ -11,7 +11,7 @@ export const ProjectPage = () => {
 
 
             <div class="fixed bottom-6 right-6">
-                <div className=' bg-yellow-500 h-32 w-32 rounded-full p-4 text-white font-medium rounded-full flex items-center justify-center hover:bg-yellow-600 transition duration-300 ease-in-out shadow-lg'>
+                <div className='btn-primary '>
 
                     <svg xmlns="http://www.w3.org/2000/svg" height="80px" viewBox="0 -960 960 960" width="80px" fill="#5f6368"><path d="M400-304 240-464l56-56 104 104 264-264 56 56-320 320Z" /></svg>
 

@@ -2,6 +2,7 @@ import { Route, Routes, Navigate } from "react-router-dom"
 import { ProjectPage } from '../pages/ProjectPage'
 import { Contact } from "../../components/Contact"
 import { About } from '../../components/About'
+import { LandingPage } from "../pages"
 export const ProjectRoutes = () => {
     return (
 
@@ -11,13 +12,13 @@ export const ProjectRoutes = () => {
 
             <Route path="/" element={<ProjectPage />} />
 
+            <Route path="/home" element={<LandingPage />} />
+
             <Route path="/*" element={<Navigate to="/" />} />
 
 
             {/* 
 OTRAS RUTAS */}
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/about" element={<About />} />
 
         </Routes>
 
