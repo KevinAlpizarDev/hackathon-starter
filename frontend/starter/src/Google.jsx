@@ -9,7 +9,7 @@ import { AppRouter } from "./router/AppRouter"
 
 export const Google = () => {
     return (
-        <div>
+        <div className="relative h-screen ">
             {/* <AppRouter /> */}
             {/* <HooksApp /> */}
             {/* <CounterWithCustomHook /> */}

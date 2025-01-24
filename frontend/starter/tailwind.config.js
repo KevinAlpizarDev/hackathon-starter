@@ -6,9 +6,16 @@ module.exports = {
   ],
   theme: {
     extend: {
+      borderRadius: {
+        // Nuevas formas de bordes
+        '4xl': '2rem', // Esto es un redondeo grande
+        '5xl': '3rem', // Otro redondeo aún mayor
+        'full': '9999px', // Para hacer círculos completos, como para un avatar
+      },
       // colores personalizados
       colors: {
         'rosa': '#ec4899',
+        'blue': '#0057ff'
       },
       spacing: {
         // Se pueden agregar nuevas medidas de espaciado
